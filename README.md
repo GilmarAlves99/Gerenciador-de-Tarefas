@@ -1,4 +1,3 @@
-# Chat em tempo real
 
 <h2> Oque você verá aqui? </h2>
 
