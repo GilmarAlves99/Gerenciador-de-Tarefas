@@ -1,0 +1,75 @@
+        body {
+            background-color: rgb(248, 248, 248);
+        }
+        
+        h1 {
+            text-align: center;
+            font-family: 'Imbue', serif;
+            font-size: 5rem;
+        }
+        
+        form {
+            background-color: rgb(116, 128, 235);
+            width: 20%;
+            float: left;
+            position: relative;
+            border: none;
+            box-shadow: 2px 2px 10px black;
+            padding: 20px;
+        }
+        
+        fieldset {
+            border: none;
+            padding: 10px;
+        }
+        
+        legend {
+            font-weight: bold;
+            text-align: left;
+        }
+        
+        .tabela {
+            position: relative;
+            width: 76%;
+            padding-left: 30px;
+        }
+        
+        .tabela tr th {
+            background-color: royalblue;
+        }
+        
+        th,
+        td {
+            font-size: 1.2rem;
+        }
+        
+        .tabela tr td {
+            background-color: rgb(175, 194, 252);
+        }
+        
+        @media(max-width: 1200px) {
+            form {
+                width: 30%;
+                padding: 0;
+            }
+            .tabela {
+                width: 70%;
+                padding-left: 3px;
+            }
+        }
+        
+        @media(max-width: 670px) {
+            form {
+                width: 100%;
+                padding: 0;
+            }
+            .tabela {
+                width: 100%;
+                margin-left: -1%;
+                padding: 0;
+            }
+            th,
+            td {
+                font-size: 1rem;
+            }
+        }
